@@ -13,7 +13,7 @@ My addition included chaining the encryption step with TLS-based exfiltration, e
 
 ⸻
 
-##Objectives
+Objectives
 
 •	Encrypt specific .txt files in a given directory.
 
