@@ -2,6 +2,7 @@
 Summary
 
 This project simulates a ransomware scenario involving the encryption of .txt files and secure transmission to a TLS-encrypted Command & Control (C2) server. The exercise was a hybrid implementation combining:
+
 •	Chapter 5: Ransomware and Encryption
  
 •	Chapter 6: TLS and Network Cryptography
