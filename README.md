@@ -27,6 +27,7 @@ Objectives
 ⸻
 
 Tools & Technologies
+
 •	Python 3
 
 •	Kali Linux
