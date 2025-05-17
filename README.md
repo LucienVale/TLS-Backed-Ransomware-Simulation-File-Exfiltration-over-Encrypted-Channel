@@ -115,7 +115,9 @@ python3 tls_c2_server.py
 Output:
 
 [+] TLS C2 server listening on port 4443 ...
+
 [+] Receiving file: testfolder.txt.enc
+
 [+] File saved to /home/kali/Desktop/received_files/testfolder.txt.enc
 
 On the ransomware client:
@@ -125,11 +127,15 @@ python3 RansomwareSim.py
 Output:
 
 [!] Found: /home/kali/Desktop/testfolder/testfolder.txt
+
 [+] Encrypted_data /home/kali/Desktop/testfolder/testfolder.txt
+
 [+] Sent /home/kali/Desktop/testfolder/testfolder.txt.enc to c2 server
+
 [!] Scanning directory: /home/kali/Desktop/testfolder
 
 Result
+
 •	.txt files in the victim directory were encrypted and renamed with a .enc suffix.
 
 •	The encrypted files were successfully transferred over TLS to the C2 server.
